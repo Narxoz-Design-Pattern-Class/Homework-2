@@ -29,7 +29,7 @@ public class Room {
                 return item;
             }
         }
-        return null; // Item not found
+        return null;
     }
 
     public String listItems() {
@@ -40,7 +40,7 @@ public class Room {
         for (Item item : items) {
             itemList.append(item.getName()).append(", ");
         }
-        return itemList.substring(0, itemList.length() - 2); // Remove last comma
+        return itemList.substring(0, itemList.length() - 2); 
     }
 
     public String getName() {
