@@ -57,7 +57,7 @@ public class MUDController {
         System.out.println("Room: " + currentRoom.getName());
         System.out.println(currentRoom.getDescription());
         System.out.println("Items here: " + currentRoom.listItems());
-        System.out.println("No NPCs present."); 
+        System.out.println("No NPCs present.");
     }
 
     private void move(String direction) {
